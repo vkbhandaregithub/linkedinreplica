@@ -1,0 +1,3 @@
+setup new github repository as linkedinreplica 
+installing vite - build tool
+installing firebase - setup 
