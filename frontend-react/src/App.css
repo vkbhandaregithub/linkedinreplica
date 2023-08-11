@@ -1,0 +1,19 @@
+.main {
+  padding: 0 10%;
+  width: 100%;
+  /* background-color: blueviolet; */
+  /* display: flex; */
+}
+.sidebarContainer__main {
+  /* background-color: brown; */
+  width: 20%;
+}
+.main__center {
+  width: 55%;
+  position: relative;
+  top: 10vh;
+  left: 6px;
+}
+body {
+  background-color: rgb(245, 245, 245) !important;
+}

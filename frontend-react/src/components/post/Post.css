@@ -1,0 +1,116 @@
+.post__container {
+  background-color: white;
+  height: fit-content;
+  border-radius: 10px;
+}
+.post__container .post__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+.post__container .post__header .post__header-left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  /* background-color: aqua; */
+}
+.post__container .post__header .post__header-left .post__header__user_info {
+  padding: 0 !important;
+  height: fit-content;
+}
+.post__container
+  .post__header
+  .post__header-left
+  .post__header__user_info
+  .username {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(75, 70, 70);
+}
+.job_profile {
+  font-size: 13px;
+  color: rgb(122, 118, 118);
+}
+.post__container
+  .post__header
+  .post__header-left
+  .post__header__user_info
+  .post__at {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  color: rgb(99, 94, 94);
+  font-size: 13px;
+  /* background-color: antiquewhite; */
+}
+.post__header-right {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  color: rgb(93, 93, 101);
+  padding: 10px;
+  border-radius: 5px;
+}
+.post__header-right .dot__icon,
+.cancel__icon {
+  padding: 5px;
+  font-size: 26px;
+}
+.post__header-right .dot__icon:hover,
+.cancel__icon:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.post__container .post__text_content p {
+  text-align: justify;
+  font-size: 14px;
+}
+.post__container .post__image {
+  width: 100%;
+  height: 400px;
+  background-color: brown;
+}
+.post__container .post__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* footer */
+.post__footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.post__footer .post_footer_box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1px;
+  color: rgb(80, 76, 76);
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3 ease-in-out;
+  cursor: pointer;
+}
+.post__footer .post_footer_box:hover {
+  background-color: aliceblue;
+}
+.post__footer .post_footer_box .icon {
+  font-size: 22px;
+}
+.post__footer .post_footer_box span {
+  font-size: 13px;
+}
+.bottom_line {
+  border-bottom: 1px solid lightgrey;
+  margin: 10px 0;
+}

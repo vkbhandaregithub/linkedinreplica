@@ -1,0 +1,106 @@
+.sidebarContainer {
+  width: 17%;
+  height: fit-content;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* background-color: white; */
+  padding: 0;
+  position: fixed;
+  margin-top: 10vh;
+}
+.sidebarProfile {
+  background-color: white;
+  border-radius: 15px;
+}
+.sidebarProfile .sidebar-avatar-bg-img {
+  width: 100%;
+  height: 50px;
+  /* overflow: hidden; */
+}
+.details .avatar-sidebar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: -40px;
+  /* transform: translateY(-75%); */
+}
+
+.userInfo__username {
+  font-size: 17px;
+}
+.userInfo p {
+  font-size: 13px;
+  color: rgb(138, 135, 132);
+  text-align: justify;
+  padding: 0 10px;
+  /* background-color: blue; */
+  /* padding: 6px 6px 0 6px; */
+}
+.bottomline {
+  border-bottom: 1px solid rgb(223, 223, 223);
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+.profileStats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profileStats .title {
+  font-weight: 500;
+  color: grey;
+  font-size: 12px;
+}
+.profileStats .views {
+  color: rgb(68, 141, 213);
+  font-weight: 500;
+  font-size: 12px;
+}
+.primelinkContainer {
+  font-size: 12px;
+  text-align: justify;
+}
+.primelinkContainer span u {
+  color: black;
+}
+.primelinkContainer p b {
+  color: rgb(66, 64, 64);
+}
+.goldenbox {
+  width: 11px;
+  height: 11px;
+  background-color: goldenrod;
+  border-radius: 2px;
+}
+.sidebar__myterms {
+  font-size: 12px;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  color: rgb(66, 64, 64);
+}
+/* recent */
+.sidebarRecentContainer {
+  background-color: white;
+  border-radius: 15px;
+  position: sticky !important;
+  top: 50px;
+}
+.sidebarRecentContainer .title {
+  font-size: 12px;
+}
+
+.sidebarRecentContainer .recentBox .singleRecent p {
+  font-size: 13px;
+  /* background-color: aquamarine; */
+}
+.sidebarRecentContainer .recentBox .singleRecent .icon {
+  font-size: 17px;
+}
+.sidebarRecentContainer .recentBox .singleRecent p span {
+  font-weight: 500;
+  color: gray;
+}
